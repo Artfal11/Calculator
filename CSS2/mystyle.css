@@ -75,4 +75,26 @@ body {
   padding-bottom: 370px;
 }
 
+@media (min-width) {
+  .calculator .value {
+  grid-column: span 4;
+  height: 150px;
+  }
+  
+  .calculator span {
+  width: 90px;
+  height: 90px;
+  }
+  
+  .calculator span.clear {
+  grid-column: span 2;
+  width: 180px;
+  }
+  
+  .calculator span.plus {
+  grid-row: span 2;
+  height: 180px;
+  }
+}
+
 /*# sourceMappingURL=mystyle.css.map */
