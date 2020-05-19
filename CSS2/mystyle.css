@@ -75,7 +75,7 @@ body {
   padding-bottom: 370px;
 }
 
-@media (min-width) {
+@media (min-width:811px) {
   .calculator .value {
   grid-column: span 4;
   height: 150px;
