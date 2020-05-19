@@ -33,6 +33,7 @@ body {
   border: none;
   outline: none;
   padding: 10px;
+  font-size: 18px;
 }
 
 .calculator span {
